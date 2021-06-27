@@ -9,7 +9,6 @@ install.packages("devtools")
 devtools::install_github("YanyZeng/mbDenoise")  
 library(mbDenoise)
 ```
-
 # Description
 Growing evidence have indicated that microbiome components have a profound impact on human
 health and development. However, microbiome data is sparse with excess zeros and complicated,
@@ -183,6 +182,7 @@ We use a microbiome dataset of Dhakan et al (2019) as a basic example which show
 
 ```
 Reference:
+
 Dhakan, D. et al. The unique composition of indian gut microbiome, gene catalogue, and
 associated fecal metabolome deciphered using multi-omics approaches. Gigascience 8, giz004
 (2019).
