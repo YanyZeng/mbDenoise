@@ -1,0 +1,13 @@
+#exportPattern("^[[:alpha:]]+")
+
+export(ZIPPCAlnm)
+export(ZIPPCApn)
+importFrom(stats,constrOptim,optim,na.omit,qnorm)
+importFrom(car,logit)
+importFrom(mvabund,manyglm)
+import(MASS)
+import(Matrix)
+import(parallel)
+import(foreach)
+import(doParallel)
+

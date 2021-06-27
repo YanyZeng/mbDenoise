@@ -1,0 +1,20 @@
+Package: mbDenoise
+Type: Package
+Title: Zero-Inflated Probabilistic PCA with different distributions, including Poisson, 
+       negative-binomial,and logistical normal multinomial (ZIPPCA-Poi,ZIPPCA-NB,ZIPPCA-LNM)
+Version: 0.1.0
+Author: Yanyan Zeng
+Maintainer: Yanyan Zeng <zengyanyan@sjtu.edu.cn>
+Description: Zero-Inflated Probabilistic PCA with different distributions, including Poisson,
+             negative binomial,and logistical normal multinomial (ZIPPCA-Poi,ZIPPCA-NB,ZIPPCA-LNM),
+             propose variational approximation (VA) and extend variational approximation method 
+             called classfic variational approximation (CVA) for comprehensive analysis of microbiome data, 
+             which containing ordination, composition and differential expression analysis.
+License: GPL-2
+Encoding: UTF-8
+URL: https://github.com/YanyZeng/mbDenoise.git
+Repository: CRAN
+Publication: 
+RoxygenNote: 7.1.1
+Depends: MASS,Matrix,parallel,foreach,doParallel
+Imports: stats,mvabund,car
