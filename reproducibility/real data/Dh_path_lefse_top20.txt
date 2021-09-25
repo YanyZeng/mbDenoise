@@ -1,0 +1,20 @@
+k660: GLUCONEO-PWY: gluconeogenesis I                                                           
+k58: PWY-6700: queuosine biosynthesis                                                          
+k583: PWY-1269: CMP-3-deoxy-D-manno-octulosonate biosynthesis I                                 
+k128: PWY-2942: L-lysine biosynthesis III|g__Prevotella.s__Prevotella_copri                     
+k35: PWY-7219: adenosine ribonucleotides de novo biosynthesis|g__Prevotella.s__Prevotella_copri
+k110: PWY-5097: L-lysine biosynthesis VI|g__Prevotella.s__Prevotella_copri                      
+k109: PWY-5097: L-lysine biosynthesis VI                                                        
+k4: UNINTEGRATED|g__Prevotella.s__Prevotella_copri                                            
+k792: PWY-5918: superpathay of heme biosynthesis from glutamate                                 
+k359: PWY-7229: superpathway of adenosine nucleotides de novo biosynthesis I|unclassified       
+k127: PWY-2942: L-lysine biosynthesis III                                                       
+"k709: PRPP-PWY: superpathway of histidine, purine, and pyrimidine biosynthesis                  "
+k95: PWY-6151: S-adenosyl-L-methionine cycle I                                                 
+k71: PWY-7221: guanosine ribonucleotides de novo biosynthesis|g__Prevotella.s__Prevotella_copri
+k911: PWY-5505: L-glutamate and L-glutamine biosynthesis|unclassified                           
+k60: PWY-6700: queuosine biosynthesis|g__Prevotella.s__Prevotella_copri                        
+k97: PWY-6151: S-adenosyl-L-methionine cycle I|g__Prevotella.s__Prevotella_copri               
+k69: PWY-7221: guanosine ribonucleotides de novo biosynthesis                                  
+k152: NONMEVIPP-PWY: methylerythritol phosphate pathway I                                       
+k556: PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II|unclassified 
