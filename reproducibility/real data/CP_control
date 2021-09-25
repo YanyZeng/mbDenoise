@@ -1,0 +1,41 @@
+s__oral taxon 363	s__oral taxon 362
+s__oral taxon 363	s__forsythia
+s__oral taxon 363	s__MCE10 174
+s__oral taxon 362	s__forsythia
+s__oral taxon 362	s__MCE10 174
+s__oral taxon 362	s__endodontalis
+s__oral taxon 362	s__maltophilum
+s__forsythia	s__maltophilum
+s__invisus	s__401H12
+s__invisus	s__oral taxon 349
+s__invisus	s__oral taxon 135 145 148 155
+s__401H12	s__cardiffensis
+s__401H12	s__JM048
+s__intermedius constellatus	s__anginosus
+s__intermedius constellatus	s__pneumosintes
+s__cardiffensis	s__JM048
+s__endodontalis	s__maltophilum
+s__endodontalis	s__rectus
+s__endodontalis	s__matruchotii
+s__sputigena	s__oral taxon 135 145 148 155
+s__pneumosintes	s__FW035
+s__oral taxon 349	s__oral taxon 135 145 148 155
+s__oral taxon 135 145 148 155	s__uli
+s__maltophilum	s__dentalis.1
+s__maltophilum	s__rectus
+s__maltophilum	s__matruchotii
+s__dentalis.1	s__rectus
+s__dentalis.1	s__noxia
+s__dentalis.1	s__gingivalis
+s__dentalis.1	s__matruchotii
+s__dentalis.1	s__BU063
+s__baroniae	s__FW035
+s__vincentii medium	s__oral taxon 230
+s__rectus	s__gingivalis
+s__rectus	s__matruchotii
+s__gingivalis	s__matruchotii
+s__CW034	s__BU064
+s__adiacens	s__denitrificans
+s__leadbetteri	s__salivae
+s__FT050	s__flueggei
+s__BU063	s__salivae

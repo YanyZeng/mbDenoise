@@ -1,0 +1,63 @@
+s__oral taxon 363	s__oral taxon 362
+s__oral taxon 363	s__intermedius constellatus
+s__oral taxon 363	s__anginosus
+s__oral taxon 363	s__endodontalis
+s__oral taxon 363	s__pneumosintes
+s__oral taxon 363	s__oral taxon 135 145 148 155
+s__oral taxon 363	s__maltophilum
+s__oral taxon 362	s__intermedius constellatus
+s__oral taxon 362	s__endodontalis
+s__oral taxon 362	s__sputigena
+s__oral taxon 362	s__oral taxon 135 145 148 155
+s__forsythia	s__intermedius constellatus
+s__forsythia	s__sputigena
+s__forsythia	s__intermedia
+s__forsythia	s__BU064
+s__mitis pneumoniae infantis oralis	s__oralis
+s__invisus	s__endodontalis
+s__invisus	s__sputigena
+s__invisus	s__pneumosintes
+s__invisus	s__maculosa
+s__401H12	s__oralis
+s__intermedius constellatus	s__anginosus
+s__intermedius constellatus	s__endodontalis
+s__intermedius constellatus	s__sputigena
+s__MCE10 174	s__CK051.2
+s__MCE10 174	s__FW035
+s__cardiffensis	s__maltophilum
+s__anginosus	s__oral taxon 135 145 148 155
+s__endodontalis	s__sputigena
+s__endodontalis	s__pneumosintes
+s__endodontalis	s__oral taxon 135 145 148 155
+s__endodontalis	s__maltophilum
+s__pneumosintes	s__maltophilum
+s__JM048	s__oral taxon 135 145 148 155
+s__JM048	s__dentalis
+s__JM048	s__intermedia
+s__JM048	s__uli
+s__JM048	s__nbw161b08c1
+s__oral taxon 349	s__
+s__oral taxon 349	s__uli
+s__oral taxon 135 145 148 155	s__dentalis
+s__oral taxon 135 145 148 155	s__intermedia
+s__oral taxon 135 145 148 155	s__uli
+s__oral taxon 135 145 148 155	s__durum
+s__dentalis	s__intermedia
+s__dentalis	s__nbw161b08c1
+s__faucium	s__vincentii medium
+s__CK051.2	s__FW035
+s__CK051.2	s__vincentii medium
+s__baroniae	s__catenaformis
+s__nbw161b08c1	s__durum
+s__FW035	s__vincentii medium
+s__dentocariosa	s__hominis
+s__7BB428	s__oral taxon 100
+s__7BB428	s__BU064
+s__rectus	s__BU064
+s__oral taxon 100	s__gingivalis
+s__oral taxon 100	s__hominis
+s__gingivalis	s__oralis
+s__CW034	s__BU064
+s__hominis	s__aprophilus
+s__maculosa	s__FT050
+s__BU063	s__flueggei
