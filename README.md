@@ -142,12 +142,7 @@ We use a microbiome dataset of Dhakan et al (2019) as a basic example which show
     
     return(list(Shannon  = sh, Simpson  = sp))
   }
-  zr <- function (X, alpha = 0.5) 
-{
-    X[X < alpha] <- alpha
-    Q <- X/(rowSums(X) %*% matrix(1, 1, ncol(X)))
-    return(Q = Q)
-}
+
   zinb_div <-  list()
   
   for(i in 1:n){
