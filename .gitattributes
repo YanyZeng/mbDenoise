@@ -1,4 +1,2 @@
 /Users/zengyanyan/云盘/mbDenoise/reproducibility/real[[:space:]]data/*.RData filter=lfs diff=lfs merge=lfs -text
-*.RData filter=lfs diff=lfs merge=lfs -text
-reproducibility/*.RData filter=lfs diff=lfs merge=lfs -text
 reproducibility/real[[:space:]]data/*.RData filter=lfs diff=lfs merge=lfs -text

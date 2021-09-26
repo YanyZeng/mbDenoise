@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#exportPattern(\"^[[:alpha:]]+\")\n\nexport(ZIPPCAlnm)\nexport(ZIPPCApn)\nimportFrom(stats,constrOptim,optim,na.omit,qnorm)\nimportFrom(car,logit)\nimportFrom(mvabund,manyglm)\nimport(MASS)\nimport(Matrix)\nimport(parallel)\nimport(foreach)\nimport(doParallel)\n\n",
+    "created" : 1624784556329.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "48072411",
+    "id" : "8F3DB66B",
+    "lastKnownWriteTime" : 1624788155,
+    "last_content_update" : 1624788155644,
+    "path" : "~/云盘/mbDenoise/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}

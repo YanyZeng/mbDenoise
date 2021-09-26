@@ -40,7 +40,7 @@ ZIPPCAlnm(X,V = NULL,n.factors = 2,rank = FALSE,trace = FALSE,maxit = 100,parall
 * parallel: logical, if TRUE, use parallel toolbox to accelerate.
 
 # Example
-We use a microbiome dataset of Dhakan et al (2019) as a basic example which shows you how to solve a common problem and demonstrate the use of mbDenoise.
+We use a microbiome dataset of Dhakan et al (2019) as a basic example which shows you how to solve a common problem and demonstrates the use of mbDenoise.
 
 ``` r
 ## Data preparing
