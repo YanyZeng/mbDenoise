@@ -1,5 +1,5 @@
 # mbDenoise
-Microbiome data denoising framework (mbDenoise) with zero-inflated probabilistic PCA, which can be used for downstream statistical analysis including ordination, compositional normalization, differential abundance analysis, etc.
+Microbiome data denoising framework (mbDenoise) with zero-inflated probabilistic PCA, which can be used for downstream high-level statistical analysis, including ordination, compositional normalization, differential abundance analysis, etc.
 
 # Installation
 You can also install the released version of mbDenoise from github with:
@@ -10,14 +10,7 @@ devtools::install_github("YanyZeng/mbDenoise")
 library(mbDenoise)
 ```
 # Description
-Growing evidence have indicated that microbiome components have a profound impact on human
-health and development. However, microbiome data is sparse with excess zeros and complicated,
-largely due to technical noises, which jeopardizes the reliability of researchers’ discovery of its
-potential biological characteristics. Thereupon, scalable imputation and denoising methods aimed
-at microbiome data are needed. We propose a statistical moderate denoising method, mbDenoise,
-to denoise microbiome data accurately and robustly. mbDenoise introduces a weight term derived
-from zero-inflation as a smooth on the normalized posterior mean of the true expression data,
-based on a two-process zero-inflated probabilistic PCA (ZIPPCA) framework. 
+Marker gene and metagenomic sequencing studies have illustrated the importance of microbial communities for human and environmental health. However, the analysis of microbiome data has several caveats and technical challenges. One of the major issues is that count matrices contain a large proportion of zeros, some of which are biological zeros, whereas others are technical zeros. In addition, the measurements suffer from unequal sequencing depth, overdispersion, and data redundancy. These nuisance factors introduce substantial noise, which distorts the biological signal and hinders downstream analyses. To address these challenges, we propose mbDenoise, an accurate and robust method for denoising microbiome data. mbDenoise assumes a zero-inflated probabilistic PCA (ZIPPCA) model consisting of a point mass at zero and a negative binomial component. It uses variational approximation to learn the latent structure, borrowing information across samples and taxa, and then recovers the true underlying abundance levels using the posterior mean. We evaluate the performance of mbDenoise and compare it to state-of-the-art methods, using both simulated and real datasets, in terms of unconstrained ordination, alpha and beta diversity analysis, and differential abundance testing. mbDenoise outperforms existing methods to extract the signal for high-level analyses. 
 
 # Usage
 mbDenoise is based on zero-inflated probabilistic PCA with logistical normal multinomial (ZIPPCA-LNM),
@@ -148,19 +141,12 @@ We use a microbiome dataset of Dhakan et al (2019) as a basic example which show
     
     return(list(Shannon  = sh, Simpson  = sp))
   }
-  zr <- function (X, alpha = 0.5) 
-{
-    X[X < alpha] <- alpha
-    Q <- X/(rowSums(X) %*% matrix(1, 1, ncol(X)))
-    return(Q = Q)
-}
-  zinb_div <-  zinb_d_div <- list()
+
+  zinb_div <-  list()
   
   for(i in 1:n){
     #mbDenoise-zinb
     zinb_div[[i]] <- diversity(ZINB[[i]]$Q)
-    #mbDenoise-zinb_zr
-    zinb_d_div[[i]] <- diversity( zr(X =ZINB[[i]]$muz , alpha = 0.5) )
   }  
 
 ## Differential abundance analysis
